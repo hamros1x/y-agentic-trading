@@ -1,0 +1,1 @@
+2025-10-25 16:45:50,792 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ADANI.NS"}}}
