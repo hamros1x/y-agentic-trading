@@ -581,9 +581,8 @@ def display_company_overview(data: StockData) -> None:
         print_metric("CEO", data.ceo)
     
     if data.description:
-        desc = truncate_text(data.description, 300)
         print(f"\nBusiness Description:")
-        print(desc)
+        print(data.description)
 
 
 def display_valuation_ratios(data: StockData) -> None:
@@ -842,7 +841,7 @@ def build_report(stock_data: StockData, score: InvestmentScore, flags: FlagAnaly
     if stock_data.ceo:
         lines.append(f"CEO: {stock_data.ceo}")
     if stock_data.description:
-        lines.append(f"\nBusiness: {truncate_text(stock_data.description, 300)}")
+        lines.append(f"\nBusiness: {stock_data.description}")
     lines.append("")
     
     # Investment Score
@@ -1010,15 +1009,6 @@ def build_report(stock_data: StockData, score: InvestmentScore, flags: FlagAnaly
             potential = ((stock_data.target_price_mean - stock_data.current_price) / stock_data.current_price) * 100
             lines.append(f"Potential: {potential:+.2f}% from current price")
         lines.append("")
-    
-    # Disclaimer
-    lines.append("=" * 70)
-    lines.append("DISCLAIMER")
-    lines.append("-" * 70)
-    lines.append("This report is for informational purposes only and should not be")
-    lines.append("considered as investment advice. Please consult with a financial")
-    lines.append("advisor before making investment decisions.")
-    lines.append("=" * 70)
     
     return "\n".join(lines)
 

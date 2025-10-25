@@ -132,10 +132,6 @@ def calculate_statistics(data):
     # Trading days
     stats['trading_days'] = len(data)
     
-    # Calculate moving averages
-    data['SMA_7'] = data['Close'].rolling(window=7).mean()
-    data['SMA_14'] = data['Close'].rolling(window=14).mean()
-    
     # Last updated
     stats['last_updated'] = data.index[-1].strftime('%Y-%m-%d %H:%M:%S')
     
@@ -384,7 +380,7 @@ def export_to_txt(data, ticker):
         filename = f"{OUTPUT_FOLDER}/{ticker_clean}_data_{timestamp}.txt"
         
         # Select columns to export
-        export_data = data[['Open', 'High', 'Low', 'Close', 'Volume', 'Daily_Return', 'SMA_7', 'SMA_14']].copy()
+        export_data = data[['Open', 'High', 'Low', 'Close', 'Volume', 'Daily_Return']].copy()
         
         # Save as tab-separated TXT file
         export_data.to_csv(filename, sep='\t')
