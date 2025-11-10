@@ -1,0 +1,77 @@
+=== AGENT 1: HISTORICAL DATA ANALYSIS ===
+Stock: TCS.NS
+Analysis Date: 2025-11-07
+Daily Data: 2024-11-07 to 2025-11-07
+15-min Data: 2025-08-12 to 2025-11-07
+
+SUPPORT & RESISTANCE
+[1M Lookback]
+Level 1: $2954.54 | Touches: 3 | Avg Bounce: 2.55% | Confidence: 0.02
+Level 2: $3063.73 | Touches: 6 | Avg Bounce: 1.53% | Confidence: 0.02
+
+[3M Lookback]
+Level 1: $3020.91 | Touches: 16 | Avg Bounce: 2.23% | Confidence: 0.05
+Level 2: $2883.48 | Touches: 3 | Avg Bounce: 4.59% | Confidence: 0.04
+Level 3: $3113.81 | Touches: 8 | Avg Bounce: 2.23% | Confidence: 0.03
+Level 4: $3191.10 | Touches: 1 | Avg Bounce: 2.11% | Confidence: 0.01
+
+[6M Lookback]
+Level 1: $3020.63 | Touches: 20 | Avg Bounce: 2.17% | Confidence: 0.05
+Level 2: $2883.48 | Touches: 3 | Avg Bounce: 4.59% | Confidence: 0.04
+Level 3: $3406.90 | Touches: 14 | Avg Bounce: 2.05% | Confidence: 0.04
+Level 4: $3127.12 | Touches: 11 | Avg Bounce: 2.13% | Confidence: 0.04
+Level 5: $3504.61 | Touches: 5 | Avg Bounce: 2.42% | Confidence: 0.03
+
+VOLUME PROFILE
+POC: $3041.93
+VAH: $3570.12 | VAL: $2930.34
+Top HVNs: $2997.30, $3012.17, $3027.05
+Top LVNs: $2863.39, $2922.90
+Confidence: 0.42
+
+GAP BEHAVIOR
+Total Gaps: 30
+Fill Rate (Same Day): 43.33%
+Fill Rate (1 Day): 56.67%
+Fill Rate (5 Days): 56.67%
+Avg Time to Fill: 0.24 days
+Confidence: 0.15
+
+HURST EXPONENT
+H: 0.47
+Interpretation: Mean-Reverting
+Confidence: 0.42
+
+VOLATILITY REGIME
+Current Regime: Low
+Volatility Percentile: 22.27%
+Confidence: 0.42
+
+CORRELATION WITH NIFTY 50
+5-Day: 0.00
+20-Day: 0.00
+60-Day: 0.00
+Confidence: 0.00
+
+DAY-OF-WEEK SEASONALITY
+Monday: -0.01% (50 samples)
+Tuesday: -0.28% (52 samples)
+Wednesday: +0.24% (47 samples)
+Thursday: -0.19% (49 samples)
+Friday: -0.28% (49 samples)
+Strongest Day: Wednesday | Confidence: 0.42
+
+OPENING RANGE ANALYSIS
+OR Breakout Rate: 44.07%
+Avg Follow-Through: 0.33%
+Days Analyzed: 59
+Confidence: 0.20
+
+INTRADAY VWAP & TIME PATTERNS
+VWAP Reversion Rate: 54.69%
+Open Drive (First Hour): +0.00% avg return
+Midday (11am-2pm): 0.12% avg volatility
+Close (Last Hour): +0.02% avg return
+Confidence: 0.20
+
+=== END OF ANALYSIS ===

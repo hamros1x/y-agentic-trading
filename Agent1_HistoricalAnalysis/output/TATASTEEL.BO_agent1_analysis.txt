@@ -1,0 +1,79 @@
+=== AGENT 1: HISTORICAL DATA ANALYSIS ===
+Stock: TATASTEEL.BO
+Analysis Date: 2025-11-10
+Daily Data: 2024-11-07 to 2025-11-07
+15-min Data: 2025-08-12 to 2025-11-07
+
+SUPPORT & RESISTANCE
+[1M Lookback]
+Level 1: $170.03 | Touches: 2 | Avg Bounce: 4.41% | Confidence: 0.03
+Level 2: $176.15 | Touches: 3 | Avg Bounce: 3.45% | Confidence: 0.03
+Level 3: $187.00 | Touches: 1 | Avg Bounce: 5.24% | Confidence: 0.03
+
+[3M Lookback]
+Level 1: $168.79 | Touches: 10 | Avg Bounce: 3.60% | Confidence: 0.06
+Level 2: $154.72 | Touches: 3 | Avg Bounce: 6.62% | Confidence: 0.05
+Level 3: $173.90 | Touches: 7 | Avg Bounce: 3.23% | Confidence: 0.05
+Level 4: $187.00 | Touches: 1 | Avg Bounce: 5.24% | Confidence: 0.03
+Level 5: $162.55 | Touches: 2 | Avg Bounce: 3.42% | Confidence: 0.03
+
+[6M Lookback]
+Level 1: $152.64 | Touches: 10 | Avg Bounce: 5.38% | Confidence: 0.08
+Level 2: $158.13 | Touches: 14 | Avg Bounce: 3.13% | Confidence: 0.06
+Level 3: $170.19 | Touches: 12 | Avg Bounce: 3.31% | Confidence: 0.06
+Level 4: $163.54 | Touches: 11 | Avg Bounce: 2.95% | Confidence: 0.05
+Level 5: $175.50 | Touches: 5 | Avg Bounce: 2.99% | Confidence: 0.04
+
+VOLUME PROFILE
+POC: $159.12
+VAH: $163.48 | VAL: $126.53
+Top HVNs: $127.54, $134.26, $134.93
+Top LVNs: $120.15, $120.82
+Confidence: 0.42
+
+GAP BEHAVIOR
+Total Gaps: 31
+Fill Rate (Same Day): 54.84%
+Fill Rate (1 Day): 67.74%
+Fill Rate (5 Days): 74.19%
+Avg Time to Fill: 0.43 days
+Confidence: 0.15
+
+HURST EXPONENT
+H: 0.48
+Interpretation: Mean-Reverting
+Confidence: 0.42
+
+VOLATILITY REGIME
+Current Regime: Transitional
+Volatility Percentile: 34.21%
+Confidence: 0.42
+
+CORRELATION WITH NIFTY 50
+5-Day: 0.00
+20-Day: 0.00
+60-Day: 0.00
+Confidence: 0.00
+
+DAY-OF-WEEK SEASONALITY
+Monday: -0.06% (50 samples)
+Tuesday: +0.10% (52 samples)
+Wednesday: +0.50% (46 samples)
+Thursday: +0.15% (49 samples)
+Friday: -0.14% (49 samples)
+Strongest Day: Wednesday | Confidence: 0.42
+
+OPENING RANGE ANALYSIS
+OR Breakout Rate: 32.20%
+Avg Follow-Through: 0.59%
+Days Analyzed: 59
+Confidence: 0.20
+
+INTRADAY VWAP & TIME PATTERNS
+VWAP Reversion Rate: 44.74%
+Open Drive (First Hour): +0.04% avg return
+Midday (11am-2pm): 0.17% avg volatility
+Close (Last Hour): -0.03% avg return
+Confidence: 0.20
+
+=== END OF ANALYSIS ===
